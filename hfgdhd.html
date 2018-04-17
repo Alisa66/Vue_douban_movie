@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+
+<script>
+  function sumTwoSmallestNumbers(numbers) {
+    //Code here
+      // 数组中最小的数字
+    function l(a,b) {
+      return a-b
+    }
+      var small= Math.min(...numbers);
+      var large = Math.max(...numbers);
+
+      for(var i =0;i<numbers.length;i++){
+        if(small<numbers[i] && numbers[i]<large){
+          var num=[]
+            num= numbers[i].toString();
+
+
+        }
+
+      }
+
+      //这个数字
+
+      // console.log(numbers.indexOf(lates));
+      // var  num = numbers.splice(lates,2);
+      // console.log(num);
+
+  };
+  sumTwoSmallestNumbers([3,0,9,6]);
+</script>
